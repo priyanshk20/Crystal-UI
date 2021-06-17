@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    max-width: 350px;
+    background-color: purple;
+    height: 100vh;
+    border-right: 2px solid #000;
+}
+
+nav a{
+    color:#000;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    border-top: 2px solid #000;
+    text-decoration: none;
+}
+
+main{
+    flex: 1;
+    background-color: orange;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section{
+    padding: 20px;
+    line-height: 2;
+    font-size: 25px;
+}
