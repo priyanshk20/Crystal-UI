@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
+    <title>UI Documentation</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="navbar">
-        <header>UI Documentation</header>
+        <header style="text-align: center;">UI Documentation</header>
         <a href="#introduction" class="nav-link">
             Get Started
         </a>
@@ -22,40 +23,86 @@
             Buttons
         </a>
         <a href="#navbars" class="nav-link">
-            Navbars
+            Navbar
         </a>
-        <a href="#footers" class="nav-link">
-            Footers
+        <a href="#headers" class="nav-link">
+            Header
         </a>
         <a href="#sections" class="nav-link">
             Sections
+        </a>
+        <a href="#cards" class="nav-link">
+            Cards
+        </a>
+        <a href="#footers" class="nav-link">
+            Footer
         </a>
     </nav>
     <main id="main-doc">
         <section class="main-section" id="introduction">
             <header>Get Started</header>
-            <p>Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+            <p>
+                Custom Stylish Components designed for simplicity and reusability.
             </p>
+           <div class="center">
+            <a href="https://github.com/priyanshk20/ui-library/" class=" link primary-link">Download <i class="lni lni-github"></i></a>
+           </div>
+           <p>Use CDN Link: </p>
+           <div class="center">
+            <p style="background-color: lightgray; font-size: 20px;">&lt;link rel="stylesheet" href="https://cdn.statically.io/gh/priyanshk20/ui-library/main/styles.css"&gt;</p>
+           </div>
+           
         </section>
         <section class="main-section" id="components">
             <header>Components</header>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora sunt repellendus iste omnis aut veniam quibusdam illo facilis! Est, vero molestias distinctio consectetur non eius reiciendis eaque ad aut dolorem in praesentium rem! Porro provident in, vitae eaque deleniti veritatis. Cumque distinctio voluptatem doloremque. Pariatur provident repellat quo id.</p>
+            <p>Components Available:</p>
+            <ol>
+                <li>Lists</li>
+                <li>Buttons</li>
+                <li>Navbar</li>
+                <li>Header</li>
+                <li>Section</li>
+                <li>Cards</li>
+                <li>Footer</li>
+            </ol>
         </section>
         <section class="main-section" id="buttons">
             <header>Buttons</header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam consectetur, placeat labore modi temporibus! Suscipit quis tempora ab deserunt assumenda! Velit voluptatibus quia excepturi eius tempora cumque, ratione magnam. Dolorem, itaque iste. Qui unde similique velit perspiciatis quidem aliquid commodi maxime, minima quae, molestiae dolore assumenda modi quos, corporis quas culpa nobis? Modi, omnis harum laudantium officiis voluptatibus recusandae.</p>
+            <div class="center">
+                <code>
+                    <a href="github.com/priyanshk20" style="text-decoration: none;
+                    padding: 0.5rem 1rem;  background-color: #6C63FF;
+    border-radius: 0.5rem; color: white;">Primary Button</a>
+     <a href="github.com/priyanshk20" class=" link secondary-link" style="text-decoration: none;
+     padding: 0.5rem 1rem; color: #6C63FF;  border: 1px solid #6C63FF; border-radius: 0.5rem;">Secondary Button</a>
+        </code>
+            </div>
+            <p style="background-color: lightgray; font-size: 20px; text-align: center; padding: 10px;">
+                &lt;a href="#" class=" link primary-link">Primary Button&lt;/a&gt;
+            </p>
+            <p style="background-color: lightgray; font-size: 20px; text-align: center; padding: 10px;">
+                &lt;a href="#" class=" link secondary-link">Secondary Button&lt;/a&gt;
+            </p>
         </section>
         <section class="main-section" id="navbars">
-            <header>Navbars</header>
+            <header>Navbar</header>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, dicta. Fuga, provident facere possimus animi harum dolor nisi sunt suscipit maxime fugit quas aliquid delectus maiores ducimus error eveniet? Qui non minus tempore officiis, fugiat cumque accusantium doloremque consectetur quo suscipit est distinctio ducimus alias facere facilis ad, et recusandae eligendi neque nemo culpa tempora? Aliquam nobis iste ipsum aperiam vitae nemo id laborum ratione earum incidunt quae, voluptate corporis.</p>
         </section>
-        <section class="main-section" id="footers">
-            <header>Footers</header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quae libero asperiores sed, reprehenderit voluptatum nulla maxime molestiae? Voluptatum deserunt fuga voluptatem, nulla, id molestiae rerum veniam commodi dignissimos sunt quidem aperiam doloribus facere dolorum, porro ad culpa. A, animi totam labore nulla nesciunt assumenda veritatis maiores praesentium! Ducimus possimus soluta fugiat pariatur dolorum illo debitis nulla distinctio sunt voluptatibus.</p>
+        <section class="main-section" id="headers">
+            <header>Header</header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, dicta. Fuga, provident facere possimus animi harum dolor nisi sunt suscipit maxime fugit quas aliquid delectus maiores ducimus error eveniet? Qui non minus tempore officiis, fugiat cumque accusantium doloremque consectetur quo suscipit est distinctio ducimus alias facere facilis ad, et recusandae eligendi neque nemo culpa tempora? Aliquam nobis iste ipsum aperiam vitae nemo id laborum ratione earum incidunt quae, voluptate corporis.</p>
         </section>
         <section class="main-section" id="sections">
             <header>Sections</header>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, dicta. Fuga, provident facere possimus animi harum dolor nisi sunt suscipit maxime fugit quas aliquid delectus maiores ducimus error eveniet? Qui non minus tempore officiis, fugiat cumque accusantium doloremque consectetur quo suscipit est distinctio ducimus alias facere facilis ad, et recusandae eligendi neque nemo culpa tempora? Aliquam nobis iste ipsum aperiam vitae nemo id laborum ratione earum incidunt quae, voluptate corporis.</p>
+        </section>
+        <section class="main-section" id="cards">
+            <header>Cards</header>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa iste iure aut cum, illo assumenda expedita natus doloremque explicabo consequatur placeat a voluptates sapiente reprehenderit nesciunt necessitatibus voluptatibus sit fugiat hic incidunt! Sint exercitationem quia sunt ipsa quo aut. Nobis voluptate eum mollitia fuga eveniet nemo beatae. Quisquam natus consequatur in ducimus rem! Reprehenderit ducimus veniam corporis consequatur, eveniet non optio possimus perferendis minus deserunt rerum expedita ratione numquam similique.</p>
+        </section>
+        <section class="main-section" id="footers">
+            <header>Footer</header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quae libero asperiores sed, reprehenderit voluptatum nulla maxime molestiae? Voluptatum deserunt fuga voluptatem, nulla, id molestiae rerum veniam commodi dignissimos sunt quidem aperiam doloribus facere dolorum, porro ad culpa. A, animi totam labore nulla nesciunt assumenda veritatis maiores praesentium! Ducimus possimus soluta fugiat pariatur dolorum illo debitis nulla distinctio sunt voluptatibus.</p>
         </section>
     </main>
 </body>

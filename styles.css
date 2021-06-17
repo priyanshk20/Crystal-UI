@@ -5,12 +5,13 @@
 body{
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
 }
 
 nav{
-    max-width: 350px;
-    background-color: purple;
+    width: 350px;
+    background-color: #6C63FF;
     height: 100vh;
     border-right: 2px solid #000;
 }
@@ -23,24 +24,80 @@ nav a{
     border-top: 2px solid #000;
     text-decoration: none;
 }
+nav a:hover{
+    background-color: #4339ff;
+    color: white;
+}
 nav header{
+    font-size: 30px;
     padding: 15px;
 }
 
+nav header:hover{
+    cursor: default;
+    color: white;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 main{
     flex: 1;
-    background-color: orange;
+    background-color: white;
     height: 100vh;
     overflow-y: scroll;
 }
 
 header{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
+}
+header:hover{
+    color: #4339ff;
+    cursor: default;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link{
+    background-color: #6C63FF;
+    border-radius: 0.5rem;
+    color: white
+}
+
+.primary-link:hover{
+    background-color: #4339ff;
+    color: #000;
 }
 
 section{
     padding: 20px;
     line-height: 2;
     font-size: 25px;
+}
+
+@media(max-width: 600px){
+
+    body{
+        flex-direction: column;
+    }
+
+
+    nav{
+        height: 400px;
+        overflow-y: scroll;
+        width: 100%;
+        border-right: none;
+        border-bottom: 4px solid #000;
+    }
+
+    main{
+        height: auto;
+        width: 100%;
+    }
 }
