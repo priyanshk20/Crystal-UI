@@ -23,6 +23,9 @@ nav a{
     border-top: 2px solid #000;
     text-decoration: none;
 }
+nav header{
+    padding: 15px;
+}
 
 main{
     flex: 1;
