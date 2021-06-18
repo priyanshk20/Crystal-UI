@@ -9,3 +9,4 @@ Just Copy and Paste.
 ![4](https://user-images.githubusercontent.com/52736997/122574505-5621cb00-d06d-11eb-9587-edf845faa157.PNG)
 
 ## If you liked it 🎇 🎆, please star the repository 🎈 🎉 ✨.
+Please contribute by sending PRs or by opening issues, if there is something missing.
